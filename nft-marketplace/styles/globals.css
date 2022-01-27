@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Massedi";
+    src: url("/fonts/Massedi.ttf");
+  },
+  @font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Medium.ttf");
+  }
+}

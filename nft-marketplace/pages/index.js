@@ -11,9 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
+      <h1 className="text-3xl font-bold text-center font-Massedi">
+        NFTZONE!
       </h1>
+      <h2 className="font-Poppins font-bold text-2xl">Testing new font</h2>
 
     </div>
   )
