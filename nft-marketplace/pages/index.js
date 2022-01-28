@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,16 +13,22 @@ export default function Home() {
       </Head>
 
       <div className="absolute z-50 w-full">
+      {/* header */}
         <div className="py-4">
           <div className="px-2 md:px-0 flex justify-center items-center">
             <Image
-              src="/images/naftrafficerLogo.png"
-              height={70}
-              width={700}
+              src="/images/nftraffickerLogo.png"
+              height={90}
+              width={900}
             />
           </div>
         </div>
-
+        {/* menu */}
+        <div>
+          <Link href="/marketplace">
+            To Marketplace
+          </Link>
+        </div>
       </div>
 
 
