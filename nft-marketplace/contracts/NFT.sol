@@ -7,6 +7,8 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 // for incrementing numbers
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+
+
 contract NFT is ERC721URIStorage {
   using Counters for Counters.Counter;
 
@@ -30,5 +32,5 @@ contract NFT is ERC721URIStorage {
     // returns new token id so we can deisplay it in frontend.
     return newItemId;
   }
-  
+
 }
