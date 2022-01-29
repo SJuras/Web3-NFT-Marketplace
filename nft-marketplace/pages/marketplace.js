@@ -71,6 +71,21 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <div className="flex flex-col md:flex-row h-96 px-6 py-5 max-w-7xl mx-auto justify-center items-center">
+          <div className="w-full md:w-2/3">
+            <h2 className="text-center md:text-left font-Poppins text-4xl text-white font-bold drop-shadow-lg">Your one stop shop<br /> for buying, selling and minting NFTs</h2>
+          </div>
+          <div className="w-full md:w-1/3 p-2 drop-shadow-2xl">
+            <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+              <p className="text-2xl font-bold font-Poppins pb-4">
+                Marketplace!
+              </p>
+              <p className="text-2xl font-bold font-Poppins pb-4">
+                Buy 'em now!'
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
 
