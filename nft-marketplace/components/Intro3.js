@@ -1,0 +1,21 @@
+
+
+export default function Intro3(){
+  return(
+    <div className="w-full flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2">
+        left
+      </div>
+      <div className="w-full md:w-1/2 p-2 drop-shadow-2xl">
+        <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-yellow-500">
+          <p className="text-2xl font-bold font-Poppins pb-4">
+            First, here's the Marketplace, with all the latest and greatest NFTs to buy
+          </p>
+          <p className="text-2xl font-bold font-Poppins pb-4">
+            I'd buy that for a Bitconnect!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
