@@ -135,6 +135,10 @@ export default function Home() {
       <div className="w-full flex py-5 max-w-7xl mx-auto">
         <Intro7 />
       </div>
+    </div>
+
+    {/* footer */}
+    <div className="w-full bg-pink-700">
       <div className="w-full flex pt-5 max-w-7xl mx-auto">
         <Footer />
       </div>

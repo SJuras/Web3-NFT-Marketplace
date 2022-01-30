@@ -13,7 +13,7 @@ export default function Intro1(){
             I've got you covered.
           </p>
           <p className="text-2xl font-bold font-Poppins pb-4">
-            I'm your <span className="font-Massedi">NFTRAFFICKER!</span> with an exclamation mark
+            I'm your <span className="font-Massedi text-pink-700">NFTRAFFICKER!</span> with an exclamation mark
           </p>
         </div>
       </div>
