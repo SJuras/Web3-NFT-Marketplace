@@ -9,11 +9,17 @@ export default function Intro4(){
             See that link that says Mint? Thats
           </p>
           <p className="text-2xl font-bold font-Poppins pb-4">
+            Give your NFT a catchy name, write some appealing description, upload the image and click the MINT button.
+          </p>
+          <p className="text-2xl font-bold font-Poppins pb-4">
             Just don't mint anything too-naughty, if you know what I mean. I can tell you're
             tempted.
           </p>
           <p className="text-2xl font-bold font-Poppins pb-4">
-            Alright, now you just have to find your nearest aspiring rapper to promote your stuff.
+            Your NFT is now live on the Marketplace and ready to be bought by NFT connoisseurs.
+          </p>
+          <p className="text-2xl font-bold font-Poppins pb-4">
+            Alright, now you just have to find your nearest aspiring rapper to promote your stuff and split the profits.
           </p>
         </div>
       </div>
