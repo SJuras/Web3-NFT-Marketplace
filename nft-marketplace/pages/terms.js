@@ -562,8 +562,56 @@ export default function Home() {
               <li className="text-xl font-Poppins">- The value of an NFTs is subjective. Prices of NFTs are subject to volatility and fluctuations in the price of cryptocurrency can also materially and adversely affect NFT prices. You acknowledge that you fully understand this subjectivity and volatility and that you may lose money.</li>
               <li className="text-xl font-Poppins">- A lack of use or public interest in the creation and development of distributed ecosystems could negatively impact the development of those ecosystems and related applications, and could therefore also negatively impact the potential utility of NFTs.</li>
               <li className="text-xl font-Poppins">- The regulatory regime governing blockchain technologies, non-fungible tokens, cryptocurrency, and other crypto-based items is uncertain, and new regulations or policies may materially adversely affect the development of the Service and the utility of NFTs.</li>
-              <li className="text-xl font-Poppins">- </li>
+              <li className="text-xl font-Poppins">- You are solely responsible for determining what, if any, taxes apply to your transactions. Nftrafficker! is not responsible for determining the taxes that apply to your NFTs.</li>
+              <li className="text-xl font-Poppins">- There are risks associated with purchasing items associated with content created by third parties through peer-to-peer transactions, including but not limited to, the risk of purchasing counterfeit items, mislabeled items, items that are vulnerable to metadata decay, items on smart contracts with bugs, and items that may become untransferable. You represent and warrant that you have done sufficient research before making any decisions to sell, obtain, transfer, or otherwise interact with any NFTs or accounts/collections.</li>
+              <li className="text-xl font-Poppins">- We do not control the public blockchains that you are interacting with and we do not control certain smart contracts and protocols that may be integral to your ability to complete transactions on these public blockchains. Additionally, blockchain transactions are irreversible and Nftrafficker! has no ability to reverse any transactions on the blockchain.</li>
+              <li className="text-xl font-Poppins">- There are risks associated with using Internet and blockchain based products, including, but not limited to, the risk associated with hardware, software, and Internet connections, the risk of malicious software introduction, and the risk that third parties may obtain unauthorized access to your third-party wallet or Account. You accept and acknowledge that Nftrafficker! will not be responsible for any communication failures, disruptions, errors, distortions or delays you may experience when using the Service or any Blockchain network, however caused.</li>
+              <li className="text-xl font-Poppins">- The Service relies on third-party platforms and/or vendors. If we are unable to maintain a good relationship with such platform providers and/or vendors; if the terms and conditions or pricing of such platform providers and/or vendors change; if we violate or cannot comply with the terms and conditions of such platforms and/or vendors; or if any of such platforms and/or vendors loses market share or falls out of favor or is unavailable for a prolonged period of time, access to and use of the Service will suffer.</li>
+              <li className="text-xl font-Poppins">- Nftrafficker! reserves the right to hide collections, contracts, and items affected by any of these issues or by other issues. Items you purchase may become inaccessible on Nftrafficker!. Under no circumstances shall the inability to view items on Nftrafficker! or an inability to use the Service in conjunction with the purchase, sale, or transfer of items available on any blockchains serve as grounds for a claim against Nftrafficker!.</li>
+              <li className="text-xl font-Poppins">- If you have a dispute with one or more users, YOU RELEASE US FROM CLAIMS, DEMANDS, AND DAMAGES OF EVERY KIND AND NATURE, KNOWN AND UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH SUCH DISPUTES. IN ENTERING INTO THIS RELEASE YOU EXPRESSLY WAIVE ANY PROTECTIONS (WHETHER STATUTORY OR OTHERWISE) THAT WOULD OTHERWISE LIMIT THE COVERAGE OF THIS RELEASE TO INCLUDE THOSE CLAIMS WHICH YOU MAY KNOW OR SUSPECT TO EXIST IN YOUR FAVOR AT THE TIME OF AGREEING TO THIS RELEASE.</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins">11. Limitation of Liability</h2>
+            <p className="text-xl font-Poppins pb-4">
+              TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AGREE THAT IN NO EVENT WILL NFTRAFFICKER! OR ITS SERVICE PROVIDERS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFIT OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES ARISING FROM THESE TERMS OR THE SERVICE, PRODUCTS OR THIRD-PARTY SITES AND PRODUCTS, OR FOR ANY DAMAGES RELATED TO LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, OR LOSS OF DATA, AND WHETHER CAUSED BY STRICT LIABILITY OR TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT, OR OTHERWISE, EVEN IF FORESEEABLE AND EVEN IF NFTRAFFICKER! OR ITS SERVICE PROVIDERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR (B) FOR ANY OTHER CLAIM, DEMAND, OR DAMAGES WHATSOEVER RESULTING FROM OR ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OF THE DELIVERY, USE, OR PERFORMANCE OF THE SERVICE. ACCESS TO, AND USE OF, THE SERVICE, PRODUCTS OR THIRD-PARTY SITES, AND PRODUCTS ARE AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA RESULTING THEREFROM.
+            </p>
+            <p className="text-xl font-Poppins pb-4">
+              NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, IN NO EVENT SHALL THE MAXIMUM AGGREGATE LIABILITY OF NFTRAFFICKER! ARISING OUT OF OR IN ANY WAY RELATED TO THESE TERMS, THE ACCESS TO AND USE OF THE SERVICE, CONTENT, NFTS, OR ANY NFTRAFFICKER! PRODUCTS OR SERVICES EXCEED THE GREATER OF (A) $100 OR (B) THE AMOUNT RECEIVED BY NFTRAFFICKER! FOR ITS SERVICE DIRECTLY RELATING TO THE ITEMS THAT ARE THE SUBJECT OF THE CLAIM. THE FOREGOING LIMITATIONS WILL APPLY EVEN IF THE ABOVE STATED REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+            </p>
+            <p className="text-xl font-Poppins pb-4">
+              Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you. Some jurisdictions also limit disclaimers or limitations of liability for personal injury from consumer products, so this limitation may not apply to personal injury claims.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins">12. Privacy Policy</h2>
+            <p className="text-xl font-Poppins pb-4">
+              Please refer to our <Link href="/privacy"><span className="text-pink-700 transition duration-300 hover:text-yellow-500 cursor-pointer">Privacy Policy</span></Link> for information about how we collect, use, and share personal data about you. By
+              submitting personal data through our Service, you agree to the terms of our <Link href="/privacy"><span className="text-pink-700 transition duration-300 hover:text-yellow-500 cursor-pointer">Privacy Policy</span></Link> and you expressly
+              consent to the collection, use, and disclosure of your personal data in accordance
+              with the <Link href="/privacy"><span className="text-pink-700 transition duration-300 hover:text-yellow-500 cursor-pointer">Privacy Policy</span></Link>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins">13. Modifications to the Service</h2>
+            <p className="text-xl font-Poppins pb-4">
+              We reserve the right in our sole discretion to modify, suspend, or discontinue, temporarily or permanently, the Service (or any features or parts thereof) at any time and without liability as a result.
+            </p>
           </div>
         </div>
       </div>
