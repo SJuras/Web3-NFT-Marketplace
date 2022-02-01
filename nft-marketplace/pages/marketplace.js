@@ -3,8 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
+import Footer from '../components/Footer.js';
+
+
 export default function Home() {
   return (
+  <div>
     <div className="bg-black relative">
       <Head>
         <title>Marketplace | NFTRAFFICKER NFT Marketplace</title>
@@ -98,5 +102,15 @@ export default function Home() {
         />
       </div>
     </div>
+
+    {/* footer */}
+    <div className="w-full bg-pink-700">
+      <div className="w-full flex pt-5 max-w-7xl mx-auto">
+        <Footer />
+      </div>
+    </div>
+
+
+  </div>
   )
 }
