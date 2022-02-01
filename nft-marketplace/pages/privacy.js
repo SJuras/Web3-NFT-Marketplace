@@ -161,6 +161,113 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">2. Use of Your Personal Data.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              We process your Personal Data to run our business, provide the Service, personalize your experience on the Service, and improve the Service. Specifically, we use your Personal Data to:
+            </p>
+            <ul className="pb-4">
+              <li className="text-xl font-Poppins">- facilitate the creation of and secure your account;</li>
+              <li className="text-xl font-Poppins">- identify you as a user in our system;</li>
+              <li className="text-xl font-Poppins">- provide you with our Service, including, but not limited to, helping you view, explore, and create NFTs using our tools and, at your own discretion, connect directly with others to purchase, sell, or transfer NFTs on public blockchains;</li>
+              <li className="text-xl font-Poppins">- improve the administration of our Service and quality of experience when you interact with our Service, including, but not limited to, by analyzing how you and other users find and interact with the Service;</li>
+              <li className="text-xl font-Poppins">- provide customer support and respond to your requests and inquiries;</li>
+              <li className="text-xl font-Poppins">- investigate and address conduct that may violate our Terms of Service;</li>
+              <li className="text-xl font-Poppins">- detect, prevent, and address fraud, violations of our terms or policies, and/or other harmful or unlawful activity;</li>
+              <li className="text-xl font-Poppins">- display your username next to the NFTs currently or previously accessible in your third-party wallet, and next to NFTs on which you have interacted;</li>
+              <li className="text-xl font-Poppins">- comply with applicable laws, cooperate with investigations by law enforcement or other authorities of suspected violations of law, and/or to pursue or defend against legal threats and/or claims; and</li>
+              <li className="text-xl font-Poppins">- act in any other way we may describe when you provide the Personal Data.</li>
+            </ul>
+            <p className="text-xl font-Poppins pb-4">
+              We may create Anonymous Data records from Personal Data. We use this Anonymous Data to analyze request and usage patterns so that we may improve our Services and enhance Service navigation. We reserve the right to use Anonymous Data for any purpose and to disclose Anonymous Data to third parties without restriction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">3. Disclosure of Your Personal Data.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              We disclose your Personal Data as described below and as described elsewhere in this Privacy Policy.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">a. Third Party Service Providers.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We may share your Personal Data with third party service providers to: provide technical infrastructure services; conduct quality assurance testing; analyze how our Service is used; prevent, detect, and respond to unauthorized activities; provide technical and customer support; and/or to provide other support to us and to the Service.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">b. Affiliates.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We may share some or all of your Personal Data with any subsidiaries, joint ventures, or other companies under our common control (“Affiliates”), in which case we will require our Affiliates to honor this Privacy Policy.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">c. Corporate Restructuring.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We may share some or all of your Personal Data in connection with or during negotiation of any merger, financing, acquisition, or dissolution transaction or proceeding involving sale, transfer, divestiture, or disclosure of all or a portion of our business or assets. In the event of an insolvency, bankruptcy, or receivership, Personal Data may also be transferred as a business asset. If another company acquires our company, business, or assets, that company will possess the Personal Data collected by us and will assume the rights and obligations regarding your Personal Data as described in this Privacy Policy.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">d. Legal Rights.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              Regardless of any choices you make regarding your Personal Data (as described below), Nftrafficker! may disclose Personal Data if it believes in good faith that such disclosure is necessary: (a) in connection with any legal investigation; (b) to comply with relevant laws or to respond to subpoenas, warrants, or other legal process served on Nftrafficker!; (c) to protect or defend the rights or property of Nftrafficker! or users of the Service; and/or (d) to investigate or assist in preventing any violation or potential violation of the law, this Privacy Policy, or our Terms of Service.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">e. Other Disclosures.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We may also disclose your Personal Data: to fulfill the purpose for which you provide it; for any other purpose disclosed by us when you provide it; or with your consent.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">4. Third-Party Websites.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              Our Service may contain links to third-party websites. When you click on a link to any other website or location, you will leave our Service and go to another site, and another entity may collect Personal Data from you. We have no control over, do not review, and cannot be responsible for these third-party websites or their content. Please be aware that the terms of this Privacy Policy do not apply to these third-party websites or their content, or to any collection of your Personal Data after you click on links to such third-party websites. We encourage you to read the privacy policies of every website you visit. Any links to third-party websites or locations are for your convenience and do not signify our endorsement of such third parties or their products, content, or websites.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">5. Third-Party Wallets.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              To use our Service, you must use a third-party wallet which allows you to engage in transactions on public blockchains. Your interactions with any third-party wallet provider are governed by the applicable terms of service and privacy policy of that third party.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">6. Data Protection.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              We care about the security of your information and use physical, administrative, and technological safeguards to preserve the integrity and security of information collected through our Service. However, no security system is impenetrable and we cannot guarantee the security of our systems. In the event that any information under our custody and control is compromised as a result of a breach of security, we will take steps to investigate and remediate the situation and, in accordance with applicable laws and regulations, notify those individuals whose information may have been compromised.
+            </p>
+            <p className="text-xl font-Poppins pb-4">
+              You are responsible for the security of your digital wallet, and we urge you to take steps to ensure it is and remains secure. If you discover an issue related to your wallet, please contact your wallet provider.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex pt-5 pb-10 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">7. Changes to This Privacy Policy.</h2>
+            <p className="text-xl font-Poppins pb-4">
+              This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy.
+            </p>
+            <p className="text-xl font-Poppins pb-4">
+              You are responsible for periodically visiting our Service and this Privacy Policy to check for any changes.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     {/* footer */}
