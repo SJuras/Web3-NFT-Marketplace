@@ -605,7 +605,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex py-5 max-w-7xl mx-auto">
+      <div className="w-full flex pt-5 pb-10 max-w-7xl mx-auto">
         <div className="w-full p-2 drop-shadow-2xl">
           <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
             <h2 className="text-2xl font-bold pb-2 font-Poppins">13. Modifications to the Service</h2>

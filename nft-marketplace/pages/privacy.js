@@ -102,6 +102,67 @@ export default function Home() {
       </div>
     </div>
 
+
+    {/* PRIVACY section */}
+    <div className="w-full bg-blue-300">
+      <div className="w-full flex py-5 max-w-7xl mx-auto">
+        <div className="w-full p-2 drop-shadow-2xl">
+          <div className="w-full border border-2 rounded-md border-zinc-700 p-4 bg-white">
+            <p className="text-xl font-Poppins pb-4">
+              Sarif-Design d/b/a Nftrafficker! (“Nftrafficker!,” “we”, “us”, or “our”) is committed
+              to protecting your privacy. We have prepared this Privacy Policy to describe to you our
+              practices regarding the Personal Data (as defined below) we collect, use, and share in
+              connection with the Nftrafficker! website, mobile app, and other software provided
+              on or in connection with our services, as described in our Terms of Service
+              (collectively, the “Service”). “NFT” in this Privacy Policy means a non-
+              fungible token or similar digital item implemented on a blockchain
+              (such as the Ethereum blockchain), which uses smart contracts to
+              link to or otherwise be associated with certain content or data.
+            </p>
+            <h2 className="text-2xl font-bold pb-2 font-Poppins pb-4">1. Types of Data We Collect</h2>
+            <p className="text-xl font-Poppins pb-4">
+              “Personal Data” means data that allows someone to identify you
+              individually, including, for example, your name, email address,
+              as well as any other non-public information about you that is
+              associated with or linked to any of the foregoing. “Anonymous Data”
+              means data, including aggregated and de-identified data, that is not
+              associated with or linked to your Personal Data; Anonymous Data does
+              not, by itself, permit the identification of individual persons. We collect
+              Personal Data and Anonymous Data as described below.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">a. Information You Provide Us.</h3>
+            <ul className="pb-4">
+              <li className="text-xl font-Poppins">- When you use our Service, update your account profile, or contact us, we may collect Personal Data from you, such as email address, first and last name, user name, and other information you provide. We also collect your blockchain address, which may become associated with Personal Data when you use our Service.</li>
+              <li className="text-xl font-Poppins">- Our Service lets you store preferences like how your content is displayed, notification settings, and favorites. We may associate these choices with your ID, browser, or mobile device.</li>
+              <li className="text-xl font-Poppins">- If you provide us with feedback or contact us, we will collect your name and contact information, as well as any other content included in the message.</li>
+              <li className="text-xl font-Poppins">- We may also collect Personal Data at other points in our Service where you voluntarily provide it or where we state that Personal Data is being collected.</li>
+            </ul>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">b. Information Collected via Technology.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              As you navigate through and interact with our Service, we may use automatic data collection technologies to collect certain information about your equipment, browsing actions, and patterns, including:
+            </p>
+            <ul className="pb-4">
+              <li className="text-xl font-Poppins">- Information Collected by Our Servers. To provide our Service and make it more useful to you, we (or a third party service provider) collect information from you, including, but not limited to, your browser type, operating system, Internet Protocol (“IP”) address, mobile device ID, blockchain address, wallet type, and date/time stamps.</li>
+              <li className="text-xl font-Poppins">- Log Files. As is true of most websites and applications, we gather certain information automatically and store it in log files. This information includes IP addresses, browser type, Internet service provider (“ISP”), referring/exit pages, operating system, date/time stamps, and clickstream data. We use this information to analyze trends, administer the Service, track users’ movements around the Service, and better tailor our Services to our users’ needs. For example, some of the information may be collected so that when you visit the Service, it will recognize you and the information can be used to personalize your experience.</li>
+              <li className="text-xl font-Poppins">- Cookies. Like many online services, we use cookies to collect information. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies (which stay on your computer until you delete them) to analyze how users interact with our Service, make improvements to our product quality, and provide users with a more personalized experience.</li>
+              <li className="text-xl font-Poppins">- Pixel Tag. In addition, we use “Pixel Tags” (also referred to as clear Gifs, Web beacons, or Web bugs). Pixel Tags allow us to analyze how users find our Service, make the Service more useful to you, and tailor your experience with us to meet your particular interests and needs.</li>
+              <li className="text-xl font-Poppins">- How We Respond to Do Not Track Signals. Our systems do not currently recognize “do not track” signals or other mechanisms that might enable Users to opt out of tracking on our site.</li>
+              <li className="text-xl font-Poppins">- Analytics Services. In addition to the tracking technologies we place like Cookies and Pixel Tags, other companies may set their own cookies or similar tools when you visit our Service. This includes third-party analytics services (“Analytics Services”) that we engage to help analyze how users use the Service. The information generated by the Cookies or other technologies about your use of our Service (the “Analytics Information”) is transmitted to the Analytics Services. The Analytics Services use Analytics Information to compile reports on user activity, which we may receive on an individual or aggregate basis. We use the information we get from Analytics Services to improve our Service. The Analytics Services may also transfer information to third parties where required to do so by law, or where such third parties process Analytics Information on their behalf. Each Analytics Services’ ability to use and share Analytics Information is restricted by such Analytics Services’ terms of use and privacy policy. By using our Service, you consent to the processing of data about you by Analytics Services in the manner and for the purposes set out above.</li>
+            </ul>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">c. Information Collected from Third-Party Companies.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We may receive Personal and/or Anonymous Data about you from companies that offer their products and/or services for use in conjunction with our Service or whose products and/or services may be linked from our Service. For example, third-party wallet providers provide us with your blockchain address and certain other information you choose to share with those wallets providers. We may add this to the data we have already collected from or about you through our Service.
+            </p>
+            <h3 className="text-2xl pb-2 font-Poppins pb-4">d. Public Information Observed from Blockchains.</h3>
+            <p className="text-xl font-Poppins pb-4">
+              We collect data from activity that is publicly visible and/or accessible on blockchains. This may include blockchain addresses and information regarding purchases, sales, or transfers of NFTs, which may then be associated with other data you have provided to us.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     {/* footer */}
     <div className="w-full bg-pink-700">
       <div className="w-full flex pt-5 max-w-7xl mx-auto">
