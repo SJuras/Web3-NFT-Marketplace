@@ -12,6 +12,7 @@ import Intro6 from '../components/Intro6.js';
 import Intro7 from '../components/Intro7.js';
 import Footer from '../components/Footer.js';
 
+
 import { FaChevronDown } from "react-icons/fa";
 
 
