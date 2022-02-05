@@ -3,6 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
+import { useState, useEffect } from 'react';
+
+import Header from '../components/Header.js';
+import Dropdown from '../components/Dropdown.js';
 import Intro1 from '../components/Intro1.js';
 import Intro2 from '../components/Intro2.js';
 import Intro3 from '../components/Intro3.js';
@@ -12,11 +16,17 @@ import Intro6 from '../components/Intro6.js';
 import Intro7 from '../components/Intro7.js';
 import Footer from '../components/Footer.js';
 
-
 import { FaChevronDown } from "react-icons/fa";
 
 
 export default function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
   <div>
     <div className="bg-black relative">
@@ -42,48 +52,8 @@ export default function Home() {
           </div>
 
           {/* menu */}
-          <div className="w-full flex py-5 max-w-7xl mx-auto">
-            <div className="px-6 transition duration-300 hover:scale-125">
-              <Link href="/marketplace">
-                <Image
-                  src="/images/market.png"
-                  height={70}
-                  width={330}
-                  className="cursor-pointer"
-                />
-              </Link>
-            </div>
-            <div className="px-6 transition duration-300 hover:scale-125">
-              <Link href="/mint">
-                <Image
-                  src="/images/mint.png"
-                  height={70}
-                  width={200}
-                  className="cursor-pointer"
-                />
-              </Link>
-            </div>
-            <div className="px-6 transition duration-300 hover:scale-125">
-              <Link href="/collection">
-                <Image
-                  src="/images/collection.png"
-                  height={70}
-                  width={370}
-                  className="cursor-pointer"
-                />
-              </Link>
-            </div>
-            <div className="px-6 transition duration-300 hover:scale-125">
-              <Link href="/dashboard">
-                <Image
-                  src="/images/dashboard.png"
-                  height={70}
-                  width={370}
-                  className="cursor-pointer"
-                />
-              </Link>
-            </div>
-          </div>
+          <Header isOpen={isOpen} toggle={toggle} />
+          <Dropdown isOpen={isOpen} toggle={toggle} />
 
           {/* main */}
           <div className="flex flex-col md:flex-row h-96 px-6 py-5 max-w-7xl mx-auto justify-center items-center">
